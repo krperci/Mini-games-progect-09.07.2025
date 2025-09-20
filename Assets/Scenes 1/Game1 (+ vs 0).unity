@@ -876,19 +876,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4fbfdaf7e56f9264d906df61521a91d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  xImage: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
-  oImage: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
-  xTurn: 0
-  buttons:
-  - {fileID: 1472019659}
-  - {fileID: 1370152692}
-  - {fileID: 819121628}
-  - {fileID: 1863872624}
-  - {fileID: 944561967}
-  - {fileID: 1815363472}
-  - {fileID: 587949305}
-  - {fileID: 220548994}
-  - {fileID: 542979822}
+  xImage: {fileID: 0}
+  oImage: {fileID: 0}
+  xTurn: 1
+  buttons: []
 --- !u!4 &766448082
 Transform:
   m_ObjectHideFlags: 0
@@ -916,6 +907,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9020efd5f287134a9d4c269f7cf4835, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  x: 0
 --- !u!1 &819121626
 GameObject:
   m_ObjectHideFlags: 0
